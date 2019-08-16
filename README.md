@@ -16,7 +16,8 @@ in the videos. Then go off and build your own stuff.
 Its going to be hard building stuff at first, as with any new skill.
 If you run into any issues, google solutions, read the technology's
 documentation, or take a break. It might feel like your about to climb
-Mt. Everest, but its alright. Let's take the first steps together.
+Mt. Everest, but its alright. I'm rooting for you. Let's take the first 
+steps together.
 
 Start here: https://www.youtube.com/watch?v=c8yxY7xneGc
 
