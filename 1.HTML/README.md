@@ -4,12 +4,11 @@ ________________________________________________________________
 
 HTML is used to build the skeleton of your site. Its where you
 put your text, images, videos, etc. Since, its just a skeleton, a 
-website only using HTML appears very ugly. 
+website only using HTML appears very ugly. Here's an example of one:
+http://info.cern.ch/hypertext/WWW/TheProject.html
 
-The premise of HTML is to use tags, like <p> for paragraph, to put your stuff 
-on the page. Tags typically come in two, but not always. The first tag
-is called the opening tag. The second tag is called the closing
-tag. Notice the slash in the closing tag. 
+The premise of HTML is to use tags to put your stuff on the web page.
+There are image tags, link tags, video tags, etc.
 
 Watch the video to get a grasp on basic HTML.
 Then write your own HTML.  If you run into any issues, google solutions, 
