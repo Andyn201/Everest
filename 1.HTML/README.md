@@ -12,7 +12,8 @@ is called the opening tag <p>. The second tag is called the closing
 tag </p>. Notice the slash in the closing tag. 
 
 Watch the video to get a grasp on basic HTML.
-Then write your own HTML. If you get stuck, google solutions,
-
+Then write your own HTML.  If you run into any issues, google solutions, 
+read the HTML's documentation at https://www.w3schools.com/html/,
+or take a break. 
 
 video: https://www.youtube.com/watch?v=4f5v3-dfRjM
