@@ -1,6 +1,6 @@
 
 
-Welcome to the Course to Learn Web Development
+Welcome to the Course 
 _______________________________________________
 
 This free course will teach you the basic principles
