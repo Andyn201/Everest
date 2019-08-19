@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+}
+
+#playing {
+
+   background: #0000ff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#playing p{
+    margin: 0;
+    color: white;
+}
+
+
+.played{
+    background: red;
+}

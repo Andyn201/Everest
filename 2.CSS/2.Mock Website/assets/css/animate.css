@@ -1,0 +1,150 @@
+/* body */
+
+body,  html{
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: #333;
+    border-bottom: 2px solid rgb(202, 202, 249);
+}
+
+nav .logo{
+    margin-left: 40px;
+    color: rgb(202, 202, 249);
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 30px;
+    padding: 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(202, 202, 249);
+}
+
+@media(max-width: 800px) {
+    nav ul {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+  /* Animate box 1 */
+
+
+.box1 {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+
+    /* transitions */
+    transition-property: background, border-radius, transform;
+    transition-duration: 3s;
+    transition-delay: .1s;
+
+}
+
+/* transitions */
+.box1:hover{
+    cursor: pointer;
+    background: violet;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+
+
+
+/* Animate box 2 */
+
+.box2 {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 15vw;
+    margin-top: 35vh;
+
+/*   Animations in Class  */
+    animation-name: myanimation;
+    animation-duration: 7s;
+    transform: none;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    /*   animation-iteration-count: 3  */
+    /*   Goes from 100% to 0% */
+    /*   Goes back and forth between directions */
+    /*   animation-direction: alternate; */
+    /*   Same Speed for the whole way */
+    animation-timing-function: linear;
+    /*   Speed Up */
+    /*   animation-timing-function: ease-in; */
+}
+
+
+/*   What Animation does from 0% to 100%  */
+@keyframes myanimation {
+    0%{
+        background-color: white;
+        border-radius: 0px;
+    }
+
+    25%{
+        background-color: white;
+        transform: translate(500px, 0px);
+    }
+
+
+    50%{
+        background-color: white;
+        transform: translate(500px, -400px);
+    }
+
+    75%{
+        background-color: white;
+        transform: translate(0, -400px);
+    }
+
+    100%{
+        background-color: white;
+        transform: translate(0, 0px);
+    }
+
+}
