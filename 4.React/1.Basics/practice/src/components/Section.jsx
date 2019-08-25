@@ -44,6 +44,8 @@ export default class Section extends Component {
             <div id="section" className={background ===true ? "purple" : "blue"}>
                 <button onClick={this.changeBackground}>Change Background</button>
 
+            
+
             {AJAX_Stuff.map(data => (
                 <div key={data["id"]}>
                     <h1>{data["title"]}</h1>
