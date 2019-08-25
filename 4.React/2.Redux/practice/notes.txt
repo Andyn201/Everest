@@ -1,0 +1,8 @@
+
+1. Create store to store state
+
+2. Provide the state to the app using the Provider
+
+3. Create Actions and Reducers to change state
+
+4. Use mapStateToProps in your components to get the state
